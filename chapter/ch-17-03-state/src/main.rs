@@ -8,6 +8,6 @@ fn main() {
     post.request_review();
     assert_eq!("", post.content());
 
-    // post.approve();
-    // assert_eq!("this is a post", post.content());
+    post.approve();
+    assert_eq!("this is a post", post.content());
 }
